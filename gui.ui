@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>865</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Volatility</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>resources/volatility.ico</normaloff>resources/volatility.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>5</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="text">
+     <string>Profiles</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>50</y>
+      <width>271</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>230</y>
+      <width>851</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>20</y>
+      <width>271</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>170</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Execute</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>resources/start.png</normaloff>resources/start.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>295</x>
+      <y>50</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output Dir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>170</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kill</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>resources/stop.png</normaloff>resources/stop.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>295</x>
+      <y>20</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>600</y>
+      <width>88</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>resources/save.png</normaloff>resources/save.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>90</y>
+      <width>61</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>655</x>
+      <y>600</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="text">
+     <string>Standby</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>95</y>
+      <width>31</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="text">
+     <string>PID</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>495</x>
+      <y>5</y>
+      <width>71</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="text">
+     <string>Functions</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>30</y>
+      <width>121</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>imageinfo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pslist</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pstree</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>psscan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dlllist</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cmdscan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>envars</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>procdump</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>netscan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>timeliner</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shellbags</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>shimcache</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>amcache</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>malfind</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>modscan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>hashdump</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dlldump</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dumpregistry</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>handles</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>201</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
